@@ -1,0 +1,10 @@
+C:\Dev\CPP\NES\NES\cartridge.cpp;C:\Dev\CPP\NES\NES\x64\Release\cartridge.obj
+C:\Dev\CPP\NES\NES\cnrom.cpp;C:\Dev\CPP\NES\NES\x64\Release\cnrom.obj
+C:\Dev\CPP\NES\NES\cpu6502.cpp;C:\Dev\CPP\NES\NES\x64\Release\cpu6502.obj
+C:\Dev\CPP\NES\NES\main.cpp;C:\Dev\CPP\NES\NES\x64\Release\main.obj
+C:\Dev\CPP\NES\NES\mapper.cpp;C:\Dev\CPP\NES\NES\x64\Release\mapper.obj
+C:\Dev\CPP\NES\NES\mmc1.cpp;C:\Dev\CPP\NES\NES\x64\Release\mmc1.obj
+C:\Dev\CPP\NES\NES\nametable.cpp;C:\Dev\CPP\NES\NES\x64\Release\nametable.obj
+C:\Dev\CPP\NES\NES\nrom.cpp;C:\Dev\CPP\NES\NES\x64\Release\nrom.obj
+C:\Dev\CPP\NES\NES\ppu2c05.cpp;C:\Dev\CPP\NES\NES\x64\Release\ppu2c05.obj
+C:\Dev\CPP\NES\NES\sprite.cpp;C:\Dev\CPP\NES\NES\x64\Release\sprite.obj

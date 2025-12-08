@@ -1,0 +1,12 @@
+C:\Dev\CPP\NES\NES\AxROM.cpp;C:\Dev\CPP\NES\NES\x64\Debug\AxROM.obj
+C:\Dev\CPP\NES\NES\backgroung.cpp;C:\Dev\CPP\NES\NES\x64\Debug\backgroung.obj
+C:\Dev\CPP\NES\NES\cartridge.cpp;C:\Dev\CPP\NES\NES\x64\Debug\cartridge.obj
+C:\Dev\CPP\NES\NES\CNROM.cpp;C:\Dev\CPP\NES\NES\x64\Debug\CNROM.obj
+C:\Dev\CPP\NES\NES\Controller.cpp;C:\Dev\CPP\NES\NES\x64\Debug\Controller.obj
+C:\Dev\CPP\NES\NES\cpu6502.cpp;C:\Dev\CPP\NES\NES\x64\Debug\cpu6502.obj
+C:\Dev\CPP\NES\NES\main.cpp;C:\Dev\CPP\NES\NES\x64\Debug\main.obj
+C:\Dev\CPP\NES\NES\mapper.cpp;C:\Dev\CPP\NES\NES\x64\Debug\mapper.obj
+C:\Dev\CPP\NES\NES\MMC1.cpp;C:\Dev\CPP\NES\NES\x64\Debug\MMC1.obj
+C:\Dev\CPP\NES\NES\NROM.cpp;C:\Dev\CPP\NES\NES\x64\Debug\NROM.obj
+C:\Dev\CPP\NES\NES\ppu2c05.cpp;C:\Dev\CPP\NES\NES\x64\Debug\ppu2c05.obj
+C:\Dev\CPP\NES\NES\sprite.cpp;C:\Dev\CPP\NES\NES\x64\Debug\sprite.obj
