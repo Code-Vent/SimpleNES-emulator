@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\CPP\\NES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\cpu6502.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\cpu6502.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cpu6502.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\cpu6502.cpp",
+              "RelativeDocumentMoniker": "NES\\cpu6502.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\cpu6502.cpp",
+              "RelativeToolTip": "NES\\cpu6502.cpp",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAAAA0BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T11:54:04.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\Controller.cpp",
+              "RelativeDocumentMoniker": "NES\\Controller.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\Controller.cpp",
+              "RelativeToolTip": "NES\\Controller.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T11:53:59.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

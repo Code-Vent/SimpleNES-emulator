@@ -265,7 +265,7 @@ void PPUBus::write(uint16_t address, uint8_t data) {
 			ppu->palette[addr] = data;
 		}
 		else {
-			assert(true);
+			assert(false);
 		}
 		ppu->internal_v += ppu->vram_inc;
 		break;
@@ -313,7 +313,7 @@ uint8_t PPUBus::read(uint16_t address)
 			data = ppu->palette[addr];
 		}
 		else {
-			assert(true);
+			assert(false);
 		}
 		ppu->internal_v += ppu->vram_inc;
 		break;

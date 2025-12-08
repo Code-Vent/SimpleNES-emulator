@@ -266,8 +266,10 @@ uint8_t CPU6502::read(uint16_t address) const {
         assert(controller != nullptr);
         data = controller->read(address);
     }
+    else if (address >= 0x4000 && address <= 0x4017) {
+    }
 	else {
-		assert(true);
+		assert(false);
 	}
 	return data;
 }

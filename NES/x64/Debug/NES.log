@@ -1,2 +1,4 @@
-﻿  main.cpp
+﻿  cpu6502.cpp
+  ppu2c05.cpp
+  Generating Code...
   NES.vcxproj -> C:\Dev\CPP\NES\x64\Debug\NES.exe
