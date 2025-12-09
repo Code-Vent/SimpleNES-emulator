@@ -324,7 +324,8 @@ void SingleScreenInterface::write(uint16_t address, uint8_t value)
 {
 	int t;
 	normalize_address(&address, &t);
-	data->write((1024 * t) + address, value);
+	data->write((1024 * 0) + address, value);
+	data->write((1024 * 1) + address, value);
 }
 
 void SingleScreenInterface::set_scroll(uint16_t reg, uint8_t fine_x)
@@ -390,19 +391,19 @@ void SingleScreenInterface::begin()
 {
 	coarse_x = _coarse_x;
 	fine_x = _fine_x;
-	//table = _table;
+	table = _table;
 }
 
 void SingleScreenInterface::reset(bool)
 {
 	coarse_y = _coarse_y;
 	fine_y = _fine_y;
-	table = _table;
+	//table = _table;
 }
 
 void SingleScreenInterface::set_table(uint8_t t)
 {
-	_table = t;
+	table = t;
 }
 
 void SingleScreenInterface::normalize_address(uint16_t* address, int* table) {
@@ -416,6 +417,7 @@ void SingleScreenInterface::normalize_address(uint16_t* address, int* table) {
 		*table = this->table;
 		//assert(false);
 	}
+	*table = this->table;
 	*address &= 0x3FF;
 }
 

@@ -15,7 +15,7 @@ struct ReadWriteable {
 
 class NametableData {
 public:
-	void write(uint16_t address, uint8_t data);
+	void    write(uint16_t address, uint8_t data);
 	uint8_t read(uint16_t address) const;
 	//Utility funcs for background rendering
 	uint8_t read_tile_no(int x, int y, uint8_t table/*0 or 1*/) const;
@@ -41,21 +41,21 @@ struct NametableInterface {
 	BackgroundTable tbl;
 protected:
 	ReadWriteable* rw;
-	uint8_t  calc_attrib_shift(int x, int y);
-	uint16_t get_pattern(int tile_no) const;
-	virtual void     next_x();
-	virtual void     next_y();
+	uint8_t        calc_attrib_shift(int x, int y);
+	uint16_t       get_pattern(int tile_no) const;
+	virtual void   next_x();
+	virtual void   next_y();
 	NametableData* data;
-	uint8_t coarse_x;
-	uint8_t fine_x;
-	uint8_t coarse_y;
-	uint8_t fine_y;
-	uint8_t _coarse_x;
-	uint8_t _fine_x;
-	uint8_t _coarse_y;
-	uint8_t _fine_y;
-	uint8_t  table;
-	uint8_t  _table;
+	uint8_t        coarse_x;
+	uint8_t        fine_x;
+	uint8_t        coarse_y;
+	uint8_t        fine_y;
+	uint8_t        _coarse_x;
+	uint8_t        _fine_x;
+	uint8_t        _coarse_y;
+	uint8_t        _fine_y;
+	uint8_t        table;
+	uint8_t        _table;
 };
 
 struct VerticalInterface : public NametableInterface {
@@ -105,8 +105,8 @@ struct SingleScreenInterface : public NametableInterface {
 	void    set_table(uint8_t table /**0 0r 1*/);
 private:
 	void    normalize_address(uint16_t* address, int* table);
-	void     next_x() override;
-	void     next_y() override;
+	void    next_x() override;
+	void    next_y() override;
 };
 
 #endif // !BACKGROUND_H

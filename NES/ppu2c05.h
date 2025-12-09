@@ -12,7 +12,7 @@
 #include"raylib/raylib.h"
 
 
-class PPUBus;
+class PPURegisters;
 
 enum class Event {
 	READ_STATUS,
@@ -20,7 +20,7 @@ enum class Event {
 };
 
 class PPU2C05 {
-	friend class PPUBus;
+	friend class PPURegisters;
 public:
 	PPU2C05() = default;
 	PPU2C05(Cartridge* cart, CPU6502* cpu = nullptr);

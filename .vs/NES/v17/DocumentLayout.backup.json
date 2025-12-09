@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Dev\\CPP\\NES\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\AxROM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\backgroung.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\backgroung.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\backgroung.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\backgroung.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\cpu6502.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\cpu6502.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\ppu2c05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\ppu2c05.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\ppu2c05.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\cpu6502.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|solutionrelative:NES\\cpu6502.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32845FE9-081D-4063-82A5-DE8C5AE63BFE}|NES\\NES.vcxproj|C:\\Dev\\CPP\\NES\\NES\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -18,24 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AxROM.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp",
+              "RelativeDocumentMoniker": "NES\\AxROM.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp",
+              "RelativeToolTip": "NES\\AxROM.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-09T10:50:25.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\main.cpp",
+              "RelativeDocumentMoniker": "NES\\main.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\main.cpp*",
+              "RelativeToolTip": "NES\\main.cpp*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T17:12:04.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "backgroung.h",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\backgroung.h",
+              "RelativeDocumentMoniker": "NES\\backgroung.h",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\backgroung.h*",
+              "RelativeToolTip": "NES\\backgroung.h*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-08T16:50:51.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "backgroung.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\backgroung.cpp",
+              "RelativeDocumentMoniker": "NES\\backgroung.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\backgroung.cpp*",
+              "RelativeToolTip": "NES\\backgroung.cpp*",
+              "ViewState": "AgIAAKsBAAAAAAAAAAAAAJABAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T16:50:37.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "cpu6502.cpp",
               "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\cpu6502.cpp",
               "RelativeDocumentMoniker": "NES\\cpu6502.cpp",
               "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\cpu6502.cpp",
               "RelativeToolTip": "NES\\cpu6502.cpp",
-              "ViewState": "AgIAAAcBAAAAAAAAAAAAAA0BAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABkBAAAAAAAAAAAtwB8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-08T11:54:04.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "ppu2c05.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp",
+              "RelativeDocumentMoniker": "NES\\ppu2c05.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp",
+              "RelativeToolTip": "NES\\ppu2c05.cpp",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T17:24:41.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cpu6502.h",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\cpu6502.h",
+              "RelativeDocumentMoniker": "NES\\cpu6502.h",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\cpu6502.h",
+              "RelativeToolTip": "NES\\cpu6502.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-08T17:22:05.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ppu2c05.h",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.h",
+              "RelativeDocumentMoniker": "NES\\ppu2c05.h",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.h",
+              "RelativeToolTip": "NES\\ppu2c05.h",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-08T17:23:11.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Controller.cpp",
               "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\Controller.cpp",
               "RelativeDocumentMoniker": "NES\\Controller.cpp",
@@ -43,8 +162,7 @@
               "RelativeToolTip": "NES\\Controller.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T11:53:59.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T11:53:59.612Z"
             }
           ]
         }

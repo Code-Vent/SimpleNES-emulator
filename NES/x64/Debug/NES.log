@@ -1,4 +1,14 @@
-﻿  cpu6502.cpp
+﻿  AxROM.cpp
+  CNROM.cpp
+  MMC1.cpp
+  NROM.cpp
+  backgroung.cpp
+  cartridge.cpp
+  cpu6502.cpp
+  main.cpp
+  mapper.cpp
   ppu2c05.cpp
+  sprite.cpp
   Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   NES.vcxproj -> C:\Dev\CPP\NES\x64\Debug\NES.exe

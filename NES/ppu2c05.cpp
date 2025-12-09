@@ -7,7 +7,7 @@
 using namespace std;
 
 constexpr uint8_t SPRITE_0_HIT = 0x40;
-constexpr uint8_t SPRITE_OVERFFLOW = 0x20;
+constexpr uint8_t SPRITE_OVERFLOW = 0x20;
 constexpr uint8_t VBLANK = 0x80;
 
 
@@ -23,7 +23,7 @@ const uint8_t PALETTE[] =  {
 		0x0F, 0x02, 0x38, 0x3C,
 };
 
-class PPUBus {
+class PPURegisters {
 public:
 	static PPU2C05* ppu;
 	static uint8_t read(uint16_t address);
@@ -56,9 +56,9 @@ PPU2C05::PPU2C05(Cartridge* cart, CPU6502* cpu)
 
 	if (cpu != nullptr) {
 		this->cpu = cpu;		
-		cpu->ppu_read = &PPUBus::read;
-		cpu->ppu_write = &PPUBus::write;
-		PPUBus::ppu = this;
+		cpu->ppu_read = &PPURegisters::read;
+		cpu->ppu_write = &PPURegisters::write;
+		PPURegisters::ppu = this;
 		cpu->init(cart);		
 	}
 }
@@ -67,7 +67,7 @@ PPU2C05& PPU2C05::operator=(PPU2C05&& ppu) noexcept
 {
 	*this = ppu;
 	ppu.pixels = nullptr;
-	PPUBus::ppu = this;
+	PPURegisters::ppu = this;
 	return *this;
 }
 
@@ -137,7 +137,7 @@ void PPU2C05::state_manager(Event e, uint8_t* status)
 				*status |= SPRITE_0_HIT;
 			}
 			if (sprites.sprite_count > 8) {
-				*status |= SPRITE_OVERFFLOW;
+				*status |= SPRITE_OVERFLOW;
 			}
 		}
 		if (scanline > 240){
@@ -186,9 +186,9 @@ void PPU2C05::idle_line(int count, int cpu_cycles)
 	scanline += 1;
 }
 
-PPU2C05* PPUBus::ppu = nullptr;
+PPU2C05* PPURegisters::ppu = nullptr;
 
-void PPUBus::write(uint16_t address, uint8_t data) {
+void PPURegisters::write(uint16_t address, uint8_t data) {
 	assert(ppu != nullptr);
 	uint16_t temp = 0;
 	uint16_t temp2 = 0;
@@ -279,7 +279,7 @@ void PPUBus::write(uint16_t address, uint8_t data) {
 	return;
 }
 
-uint8_t PPUBus::read(uint16_t address)
+uint8_t PPURegisters::read(uint16_t address)
 {
 	assert(ppu != nullptr);
 	static uint8_t read_buffer = 0;

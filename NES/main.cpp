@@ -16,7 +16,7 @@ using namespace std;
 
 
 int main() {
-	auto mapper = Mapper("./games/mario.nes");
+	auto mapper = Mapper("./games/Battletoads.nes");
 	Cartridge* cart = mapper.get_cartridge();
 	PPU2C05 ppu;
 	CPU6502 cpu = {};
