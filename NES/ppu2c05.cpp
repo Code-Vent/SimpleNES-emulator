@@ -35,16 +35,13 @@ PPU2C05::PPU2C05(Cartridge* cart, CPU6502* cpu)
 {
 	assert(cart != nullptr);
 	scanline = 0;
-	cycle = 0;
-	
+	cycle = 0;	
 	this->cart = cart;
 	internal_t = 0;
 	internal_v = 0;
 	internal_w = 0;
 	internal_x = 0;
-
-	memcpy_s(&palette, sizeof(palette), &PALETTE, sizeof(palette));
-	
+	memcpy_s(&palette, sizeof(palette), &PALETTE, sizeof(palette));	
 	pixels = reinterpret_cast<Color(*)[240][256]>(new Color[240 * 256]);
 	image = Image{
 		pixels,
