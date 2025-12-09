@@ -46,20 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AxROM.cpp",
-              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp",
-              "RelativeDocumentMoniker": "NES\\AxROM.cpp",
-              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp",
-              "RelativeToolTip": "NES\\AxROM.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-09T10:50:25.396Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -70,8 +58,7 @@
               "RelativeToolTip": "NES\\main.cpp",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T17:12:04.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T17:12:04.144Z"
             },
             {
               "$type": "Document",
@@ -117,10 +104,22 @@
               "RelativeDocumentMoniker": "NES\\ppu2c05.cpp",
               "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp",
               "RelativeToolTip": "NES\\ppu2c05.cpp",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAACsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAIsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-08T17:24:41.164Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AxROM.cpp",
+              "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp",
+              "RelativeDocumentMoniker": "NES\\AxROM.cpp",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\AxROM.cpp",
+              "RelativeToolTip": "NES\\AxROM.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-09T10:50:25.396Z"
             },
             {
               "$type": "Document",

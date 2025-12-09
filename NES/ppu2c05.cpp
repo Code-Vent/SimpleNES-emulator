@@ -137,7 +137,7 @@ void PPU2C05::state_manager(Event e, uint8_t* status)
 				*status |= SPRITE_OVERFLOW;
 			}
 		}
-		if (scanline > 240){
+		if (scanline >= 240){
 			//Inside NMI Handler
 			*status |= VBLANK;
 			//SMB needs this line to work properly

@@ -70,8 +70,7 @@
               "RelativeToolTip": "NES\\main.cpp",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-08T17:12:04.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T17:12:04.144Z"
             },
             {
               "$type": "Document",
@@ -115,9 +114,9 @@
               "Title": "ppu2c05.cpp",
               "DocumentMoniker": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp",
               "RelativeDocumentMoniker": "NES\\ppu2c05.cpp",
-              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp",
-              "RelativeToolTip": "NES\\ppu2c05.cpp",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAACsAAABAAAAAAAAAAA==",
+              "ToolTip": "C:\\Dev\\CPP\\NES\\NES\\ppu2c05.cpp*",
+              "RelativeToolTip": "NES\\ppu2c05.cpp*",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAIsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-08T17:24:41.164Z",
               "EditorCaption": ""
